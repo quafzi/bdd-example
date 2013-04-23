@@ -115,7 +115,7 @@ RST;
     /**
      * @Given /^wird die (\d+)\. Überschrift mit "([^"]*)" erzeugt$/
      */
-    public function wirdDieUberschriftMitErzeugt($arg1, $arg2)
+    public function wirdDieUberschriftMitErzeugt($offset, $tag)
     {
         $expected = sprintf('<%s>Titel%s</%s>', $tag, $offset, $tag);
         if (false === strpos($this->result, $expected)) {
