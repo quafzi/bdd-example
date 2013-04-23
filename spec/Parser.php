@@ -36,7 +36,7 @@ RST;
             $rst = '';
             $headlines = str_split($headlines);
             foreach ($headlines as $offset=>$headline) {
-                $rst .= "foo\n" . str_repeat($headline, 3) . "\n";
+                $rst .= "foo\n" . str_repeat($headline, 3) . "\n\n";
             }
             $expected = '<h1>foo</h1>'
                 . '<h2>foo</h2>'
