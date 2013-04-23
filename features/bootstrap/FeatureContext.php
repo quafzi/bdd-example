@@ -78,7 +78,7 @@ RST;
     }
 
     /**
-     * @Given /^die HTML-Umwandlung erfolgt$/
+     * @When /^die HTML-Umwandlung erfolgt$/
      */
     public function dieHtmlUmwandlungErfolgt()
     {
@@ -86,7 +86,7 @@ RST;
     }
 
     /**
-     * @Given /^wird eine ul-Liste erzeugt$/
+     * @Then /^wird eine ul-Liste erzeugt$/
      */
     public function wirdEineUlListeErzeugt()
     {
@@ -113,7 +113,7 @@ RST;
     }
 
     /**
-     * @Given /^wird die (\d+)\. Überschrift mit "([^"]*)" erzeugt$/
+     * @Then /^wird die (\d+)\. Überschrift mit "([^"]*)" erzeugt$/
      */
     public function wirdDieUberschriftMitErzeugt($offset, $tag)
     {
